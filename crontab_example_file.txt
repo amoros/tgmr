@@ -1,0 +1,7 @@
+# There might be difficulties getting cron to display notify-send messages if you do not
+# specify display. This cronjob command should work on Arch Linux if cron is enabled.
+
+DISPLAY=:0.0
+SHELL=/bin/bash
+
+*/30 * * * * <user> env DISPLAY=:0.0 || sh /home/<user>/Dropbox/taskmanager.sh

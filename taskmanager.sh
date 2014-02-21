@@ -4,7 +4,7 @@
 # Open up tasks.txt - read each line to variable, print variable 
 # in notify-send.
 
-inputfile=/home/joe/Dropbox/tasks.log
+inputfile=/home/<user>/Dropbox/tasks.log
 $task=""
 
 while read line
